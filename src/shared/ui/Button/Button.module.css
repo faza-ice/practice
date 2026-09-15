@@ -1,0 +1,13 @@
+.button{
+    border:var(--border);
+    height: 40px;
+    width: 340px;
+    border-radius: 8px;
+
+    &.red{
+        background-color: var(--color-red);
+    }
+    &.grey{
+        background-color: var(--color-grey-3);
+    }
+}

@@ -1,0 +1,7 @@
+.field{
+    width: 440px;
+    height: 40px;
+    background-color: var(--color-black);
+    border-radius: 8px;
+    border:var(--border)
+}
