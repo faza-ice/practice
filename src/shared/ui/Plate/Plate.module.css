@@ -1,0 +1,19 @@
+.plate{
+    background-color: var(--color-red-2);
+    width: fit-content;
+    border:var(--border-2);
+    border-radius: 4px;
+    color: var(--color-white);
+    padding:6px 20px;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    height: 24px;
+    box-sizing: border-box;
+}
+.imag{
+    width: 6px;
+    height: 6px;
+}
+
