@@ -1,9 +1,6 @@
-import Button from '@/shared/ui/Button'
-import Field from '@/shared/ui/Field'
-import Transports from '@/entities/transport/ui/transports'
 import Header from '@/widgets/header'
-import Plate from '@/shared/ui/Plate'
 import Info from '@/widgets/information'
+import Advantages from '@/widgets/advantages'
 import './styles'
 
 function App() {
@@ -14,9 +11,12 @@ function App() {
    <div>
       <Header></Header>
     </div>
-    
+
     <div>
       <Info></Info>
+    </div>
+    <div>
+      <Advantages></Advantages>
     </div>
     </>
   )

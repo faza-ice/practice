@@ -1,0 +1,56 @@
+.advantages{
+    width:100%;
+    height: 1010px;
+    padding:100px 80px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 56px;
+    box-sizing: border-box;
+}
+.head{
+    width:1280px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.headCont{
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.container{
+    width: 1280px;
+    height: 620px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap:24px;
+}
+.itemActive{
+    width: 630px;
+    height: 280px;
+    display: flex;
+    background-color: var(--color-red-2);
+    border: var(--border-2);
+    border-radius: 16px;
+    
+}
+.itemActiveCont{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    padding:32px 15px 32px 32px;
+    box-sizing: border-box;
+}
+.itemActiveTitle{
+    font-size: 18px;
+}
+.itemActiveText{
+    font-size: 14px;
+}
+.itemActiveImg{
+    border-radius: 0px 16px 16px 0px;
+    object-fit:contain; 
+}

@@ -1,0 +1,22 @@
+.item{
+    background-color: var(--color-grey-2);
+    border-radius: 16px;
+    border: var(--border);
+    width: 630px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    padding:32px;
+    row-gap: 16px;
+    box-sizing: border-box;
+}
+.title{
+    font-size: 18px;
+}
+.text{
+    font-size: 14px;
+}
+.imag{
+    width: 32px;
+    height: 32px;
+}

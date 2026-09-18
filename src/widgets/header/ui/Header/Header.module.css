@@ -3,7 +3,7 @@
     height: 100px;
     display:flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .logo{
     display: flex;  
@@ -32,5 +32,7 @@
 }
 .button{
     color:var(--color-white);
+    width: auto;
+    padding:12px 20px;
     font-size: 11px
 }
