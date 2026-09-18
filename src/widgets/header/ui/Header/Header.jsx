@@ -1,4 +1,6 @@
 import Button from "@/shared/ui/Button"
+import Title from "@/shared/ui/Title"
+import Text from "@/shared/ui/Text"
 import imag from '@/shared/assets/logo.svg'
 import styles from "./Header.module.css"
 
@@ -9,17 +11,17 @@ const Header = ()=>{
         <div className={styles.header}>
             <div className={styles.logo}>
                 <img src={imag} alt="" />
-                <div className={styles.name}><span className={styles.title}>AANTHEE</span><span className={styles.text}>федеральная сеть</span></div>
+                <div className={styles.name}><Title className={styles.title}>AANTHEE</Title><Text className={styles.text}>федеральная сеть</Text></div>
             </div>
             <nav className={`${styles.nav}`}>
-                <a href="">Инструкторы</a>
-                <a href="">Категории</a>
-                <a href="">Тарифы</a>
-                <a href="">Отзывы</a>
+               <Text><a href="">Инструкторы</a></Text>
+               <Text><a href="">Категории</a></Text>
+               <Text><a href="">Тарифы</a></Text>
+               <Text><a href="">Отзывы</a></Text>
             </nav>
             <div className={styles.tech}>
-                <span className={styles.title}>+7 (800) 555-35-35</span>
-                <Button option='red' style={styles.button}>запись онлайн</Button>
+                <Title className={styles.title}>+7 (800) 555-35-35</Title>
+                <Button option='red' className={styles.button}>запись онлайн</Button>
             </div>
         </div>
     )

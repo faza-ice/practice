@@ -3,14 +3,65 @@
     height: 820px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     padding: 160px 80px 80px 80px;
     box-sizing: border-box;
     background-image: url('@/shared/assets/images/background.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .start{
     width: 800px;
-    height:280px;
+    height:auto;
     display:flex;
     flex-direction: column;
+    row-gap: 24px;
+}
+.title{
+    font-size: 56px;
+}
+.text{
+    font-size: 18px;
+}
+.buttons{
+    display: flex;
+    column-gap: 20px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white);
+    font-size: 13px;
+
+}
+.plusCont{
+    width: 760px;
+    height: 140px;
+    display: flex;
+    padding:24px;
+    column-gap: 24px;
+    box-sizing: border-box;
     justify-content: space-between;
+    background-color: var(--color-grey-2);
+    border: var(--border);
+    border-radius: 12px;
+}
+.plus{
+    display:flex;
+    flex-direction: column;
+    row-gap: 4px;
+}
+.plusTitle{
+    color: var(--color-red);
+    font-size: 28px;
+}
+.plusSubTitle{
+    color: var(--color-white);
+    font-size: 14px;
+}
+.plusText{
+    color: var(--color-grey-1);
+    font-size: 11px;
 }

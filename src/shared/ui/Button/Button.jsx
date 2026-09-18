@@ -3,14 +3,14 @@ import styles from './Button.module.css'
 
 
 const Button = (props)=>{
-    const {option, children, style}=props
+    const {option, children, className}=props
 
 
 
 
     return (
         <button
-            className = {clsx(styles.button, styles[option], style)}
+            className = {clsx(styles.button, styles[option], className)}
         >{children}
         </button>
     )
