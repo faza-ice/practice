@@ -11,17 +11,17 @@ const Header = ()=>{
         <div className={styles.header}>
             <div className={styles.logo}>
                 <img src={imag} alt="" />
-                <div className={styles.name}><Title className={styles.title}>AANTHEE</Title><Text className={styles.text}>федеральная сеть</Text></div>
+                <div className={styles.name}><Title className={styles.title}>AANTHEE</Title><Text className={styles.text}><span className={styles.textMedium}>федеральная сеть</span></Text></div>
             </div>
-            <nav className={`${styles.nav}`}>
-               <Text><a href="">Инструкторы</a></Text>
-               <Text><a href="">Категории</a></Text>
-               <Text><a href="">Тарифы</a></Text>
-               <Text><a href="">Отзывы</a></Text>
+            <nav className={styles.nav}>
+               <Text><a href="" className={styles.textSemiBold}>Инструкторы</a></Text>
+               <Text><a href="" className={styles.textSemiBold}>Категории</a></Text>
+               <Text><a href="" className={styles.textSemiBold}>Тарифы</a></Text>
+               <Text><a href="" className={styles.textSemiBold}>Отзывы</a></Text>
             </nav>
             <div className={styles.tech}>
-                <Title className={styles.title}>+7 (800) 555-35-35</Title>
-                <Button option='red' className={styles.button}>запись онлайн</Button>
+                <Title className={styles.title}><span className={styles.titleBold}>+7 (800) 555-35-35</span></Title>
+                <Button option='red' className={styles.button}><span className={styles.titleBold}>запись онлайн</span></Button>
             </div>
         </div>
     )

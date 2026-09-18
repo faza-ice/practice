@@ -27,8 +27,17 @@
 .title{
     font-size: 16px;
 }
+.titleBold{
+    font-weight: var(--font-unbounded-weight-bold);
+}
 .text{
     font-size: 10px;
+}
+.textMedium{
+    font-weight: var(--font-manrope-weight-medium);
+}
+.textSemiBold{
+    font-weight: var(--font-manrope-weight-semiBold);
 }
 .button{
     color:var(--color-white);

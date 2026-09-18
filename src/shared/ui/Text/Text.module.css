@@ -1,4 +1,6 @@
 .text{
     color: var(--color-grey-1);
     font-size: 16px;
+    font-family:var(--font-manrope-family);
+    font-weight: var(--font-manrope-weight-regular);
 }

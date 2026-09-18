@@ -3,6 +3,8 @@
     height: 40px;
     width: 340px;
     border-radius: 8px;
+    font-family: var(--font-unbounded-family);
+    font-weight: var(--font-unbounded-weight-bold);
 
     &.red{
         background-color: var(--color-red);

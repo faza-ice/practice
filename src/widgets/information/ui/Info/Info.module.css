@@ -22,6 +22,7 @@
     font-size: 56px;
 }
 .text{
+    width: 640px;
     font-size: 18px;
 }
 .buttons{
@@ -56,10 +57,12 @@
 .plusTitle{
     color: var(--color-red);
     font-size: 28px;
+    font-weight: var(--font-unbounded-weight-black);
 }
 .plusSubTitle{
     color: var(--color-white);
     font-size: 14px;
+    font-weight: var(--font-manrope-weight-bold);
 }
 .plusText{
     color: var(--color-grey-1);

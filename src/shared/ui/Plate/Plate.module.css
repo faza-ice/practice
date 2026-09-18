@@ -3,7 +3,7 @@
     width: fit-content;
     border:var(--border-2);
     border-radius: 4px;
-    padding:6px 20px;
+    padding:6px 16px;
     display: flex;
     align-items: center;
     column-gap: 8px;
@@ -14,8 +14,7 @@
     width: 6px;
     height: 6px;
 }
-.text{
-    color: var(--color-white);
+.title{
     font-size: 10px;
-
+    font-weight: var(--font-unbounded-weight-bold);
 }

@@ -1,4 +1,6 @@
 .title{
     color: var(--color-white);
     font-size: 36px;
+    font-family: var(--font-unbounded-family);
+    font-weight: var(--font-unbounded-weight-extraBold)
 }

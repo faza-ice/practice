@@ -1,0 +1,49 @@
+@font-face{
+    font-family: "Unbounded", sans-serif;
+    src:url('../../shared/config/fonts/Unbounded-Bold.woff2') format('woff2');
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Unbounded", sans-serif;
+    src:url('../../shared/config/fonts/Unbounded-ExtraBold.woff2') format('woff2');
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Unbounded", sans-serif;
+    src:url('../../shared/config/fonts/Unbounded-Black.woff2') format('woff2');
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Manrope", sans-serif;
+    src:url('../../shared/config/fonts/Manrope-Regular.woff2') format('woff2');
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Manrope", sans-serif;
+    src:url('../../shared/config/fonts/Manrope-Medium.woff2') format('woff2');
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Manrope", sans-serif;
+    src:url('../../shared/config/fonts/Manrope-SemiBold.woff2') format('woff2');
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face{
+    font-family: "Manrope", sans-serif;
+    src:url('../../shared/config/fonts/Manrope-Bold.woff2') format('woff2');
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}

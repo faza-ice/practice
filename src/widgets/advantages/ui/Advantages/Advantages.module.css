@@ -38,11 +38,14 @@
     
 }
 .itemActiveCont{
+    min-width:250px;
+    max-width: 250px;
     display: flex;
     flex-direction: column;
     row-gap: 16px;
     padding:32px 15px 32px 32px;
     box-sizing: border-box;
+    box-sizing: content-box;
 }
 .itemActiveTitle{
     font-size: 18px;
@@ -52,5 +55,6 @@
 }
 .itemActiveImg{
     border-radius: 0px 16px 16px 0px;
-    object-fit:contain; 
+    object-fit:cover; 
+    flex-grow: 1;
 }

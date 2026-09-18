@@ -14,9 +14,9 @@ const Advantages = ()=>{
     return(
         <div className={styles.advantages}>
             <div className={styles.head}>
-                <Plate>преимущества</Plate>
+                <Plate>ПРЕИМУЩЕСТВА</Plate>
                 <div className={styles.headCont}>
-                    <Title>Почему курсанты выбирают нас?</Title>
+                    <Title>ПОЧЕМУ КУРСАНТЫ ВЫБИРАЮТ НАС?</Title>
                     <Text>Мы создали идеальную экосистему обучения, где каждый этап продуман до мелочей для вашего комфорта и гарантированного результата.</Text>
                 </div>
             </div>

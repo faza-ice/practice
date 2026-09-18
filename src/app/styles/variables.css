@@ -12,5 +12,16 @@
     --border:1px solid var(--color-grey-4);
     --border-2:1px solid var(--color-red);
 
+    --font-unbounded-family: 'Unbounded', sans-serif;
+    --font-unbounded-weight-bold: 700;
+    --font-unbounded-weight-extraBold: 800;
+    --font-unbounded-weight-black: 900;
+
+    --font-manrope-family: 'Manrope', sans-serif;
+    --font-manrope-weight-regular: 400;
+    --font-manrope-weight-medium: 500;
+    --font-manrope-weight-semiBold: 600;
+    --font-manrope-weight-bold: 700;
+
 
 }
