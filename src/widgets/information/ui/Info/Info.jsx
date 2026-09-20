@@ -11,7 +11,7 @@ const Info = ()=>{
     return(
         <div className={styles.info}>
             <div className={styles.start}>
-                <Plate >ЛИЦЕНЗИРОВАННАЯ</Plate>
+                <Plate >ЛИЦЕНЗИРОВАННАЯ АВТОШКОЛА</Plate>
                 <Title className={styles.title}>ТВОЙ УВЕРЕННЫЙ СТАРТ ЗА РУЛЕМ</Title>
                 <Text className={styles.text}>Обучение на права категорий A, B, C по современным стандартам. Собственный технологичный автодром, новые автомобили и опытные инструкторы. Сдай экзамен в ГИБДД с первого раза!</Text>
             </div>

@@ -36,10 +36,14 @@ img{
     border-radius: 4px;
     color:var(--color-white);
     padding: 4px 10px;
+    font-weight: var(--font-manrope-weight-semiBold);
+    font-size: 11px;
 }
 .transmission{
     color: var(--color-red);
-    background-color: var(--color-grey-3);
+    background-color: var(--color-red-2);
     border-radius: 4px;
     padding: 4px 10px;
+    font-weight: var(--font-manrope-weight-semiBold);
+    font-size: 11px;
 }

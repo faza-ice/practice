@@ -1,23 +1,25 @@
+import Title from '@/shared/ui/Title'
+import Text from '@/shared/ui/Text'
 import styles from './Transports.module.css'
 
-const Transports = ()=>{
-    const transports = {
-        'images':'src/shared/assets/images/kawasaki.png',
-        'title':'Kawasaki Ninja600',
-        'year': 2026,
-        'transmission': 'МКПП / АКПП',
-    }
+const Transports = (props)=>{
+    const {
+        images,
+        title,
+        year,
+        transmission,
+    } = props
 
     return(
         <div 
             className = {styles.transports}
         >
-            <img src={`${transports.images}`} alt="" />
+            <img src={images} alt="" />
             <div className={styles.info}>
-                <div className={styles.title}>{`${transports.title}`}</div>    
+                <Title className={styles.title}>{title}</Title>    
                 <div className={styles.tech}> 
-                    <div className={styles.year}>Год: {`${transports.year} `}</div> 
-                    <div className={styles.transmission}>{`${transports.transmission}`}</div>
+                    <Text className={styles.year}>Год: {year}</Text> 
+                    <Text className={styles.transmission}>{transmission}</Text>
                 </div>
             </div>
         </div>

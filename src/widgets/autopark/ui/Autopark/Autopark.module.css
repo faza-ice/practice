@@ -1,0 +1,26 @@
+.autopark{
+    width:100%;
+    height: 800px;
+    padding:100px 80px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 56px;
+    box-sizing: border-box;
+}
+.head{
+    width:1280px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.headCont{
+    width: 100%;
+    height: 80px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.transports{
+    display: flex;
+    column-gap: 24px;
+}

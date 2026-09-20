@@ -20,6 +20,7 @@
 }
 .title{
     font-size: 56px;
+    font-weight: var(--font-unbounded-weight-black);
 }
 .text{
     width: 640px;

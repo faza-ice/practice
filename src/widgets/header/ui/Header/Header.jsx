@@ -21,7 +21,7 @@ const Header = ()=>{
             </nav>
             <div className={styles.tech}>
                 <Title className={styles.title}><span className={styles.titleBold}>+7 (800) 555-35-35</span></Title>
-                <Button option='red' className={styles.button}><span className={styles.titleBold}>запись онлайн</span></Button>
+                <Button option='red' className={styles.button}>запись онлайн</Button>
             </div>
         </div>
     )
