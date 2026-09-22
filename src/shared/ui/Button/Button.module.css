@@ -2,10 +2,13 @@
     border:var(--border);
     height: 40px;
     width: auto;
-    padding: 16px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 8px;
     font-family: var(--font-unbounded-family);
     font-weight: var(--font-unbounded-weight-bold);
+    box-sizing: border-box;
 
     &.red{
         background-color: var(--color-red);

@@ -31,9 +31,7 @@
     column-gap: 20px;
 }
 .button{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding:16px 28px;
     color: var(--color-white);
     font-size: 13px;
 
