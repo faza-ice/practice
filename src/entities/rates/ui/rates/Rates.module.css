@@ -4,8 +4,15 @@
     display: flex;
     flex-direction: column;
     row-gap: 24px;
-    border: var(--border);
     box-sizing: border-box;
+}
+.grey{
+    background-color: var(--color-grey-2);
+    border: var(--border);
+}
+.red{
+    background-color: var(--color-red-2);
+    border: var(--border-2);
 }
 .head{
     width: 346px;
@@ -34,9 +41,23 @@
     color: var(--color-white);
 }
 .ul{
-    list-style-image: url('@/shared/assets/icon-list.svg');
-    color: var(--color-red);
+    list-style-type:none;
     display: flex;
     flex-direction: column;
-    row-gap: 20px;
+    row-gap: 14px;
+
+    & > li{
+        position: relative;
+        padding-left: 28px;
+    }
+    & > li::before{
+        position: absolute;
+        content: url('@/shared/assets/Vector.svg');
+        width: 16px;
+        height: 16px;
+        left: 0;
+    }
 }
+.text{
+    font-size: 13px;
+} 

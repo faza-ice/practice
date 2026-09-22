@@ -7,7 +7,8 @@ function App() {
 
   return (
     <>
-      <Home></Home>
+      <Rates option='grey'></Rates>
+      <Rates option='red'></Rates>
     </>
   )
 }
