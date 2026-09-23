@@ -1,5 +1,6 @@
 import Home from '@/pages/Home'
 import Rates from '@/entities/rates'
+import Category from '@/widgets/category'
 import './styles'
 
 function App() {
@@ -7,8 +8,7 @@ function App() {
 
   return (
     <>
-      <Rates option='grey'></Rates>
-      <Rates option='red'></Rates>
+      <Category></Category>
     </>
   )
 }

@@ -1,0 +1,12 @@
+.category{
+    height: 525px;
+    width: 1280px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 65px;
+}
+.rates{
+    width: 100%;
+    display:flex;
+    column-gap: 24px;
+}

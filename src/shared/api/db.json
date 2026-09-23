@@ -1,0 +1,22 @@
+{
+    "programs":[
+        {"id":1, "name":"Категория A", "time":1.5, "description":"описание", "theory":34},
+        {"id":2, "name":"Категория B", "time":2.5, "description":"описание", "theory":34},
+        {"id":3, "name":"Категория C", "time":3, "description":"описание", "theory":34}
+    ],
+    "rates":[
+        {"id":101, "them":"быстрый стар", "name":"теория онлайн", "price":5000, "practice":0, "description":"описание"},
+        {"id":102, "them":"рекомендуем", "name":"стандарт", "price":12500, "practice":27, "description":"описание"},
+        {"id":103, "them":"максимум вождения", "name":"практикум плюс", "price":24900, "practice":56, "description":"описание"}
+    ],
+    "transport":[
+        {"id":201, "mark":"Kawasaki", "model":"Ninja600", "kpp":"МКПП / АКПП", "year":2026},
+        {"id":202, "mark":"Lada", "model":"Granta Sport", "kpp":"МКПП / АКПП", "year":2026},
+        {"id":203, "mark":"ГАЗон", "model":"Next", "kpp":"МКПП", "year":2026}
+    ],
+    "coach":[
+        {"id":301, "surname":"Kawasaki", "name":"Ninja600", "experience":40, "description":"описание"},
+        {"id":302, "surname":"Lada", "name":"Granta Sport", "experience":20, "description":"описание"},
+        {"id":303, "surname":"ГАЗон", "name":"Next", "experience":3, "description":"описание"}
+    ]
+}
