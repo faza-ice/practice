@@ -1,8 +1,8 @@
 {
     "programs":[
-        {"id":1, "name":"Категория A", "time":1.5, "description":"описание", "theory":34},
-        {"id":2, "name":"Категория B", "time":2.5, "description":"описание", "theory":34},
-        {"id":3, "name":"Категория C", "time":3, "description":"описание", "theory":34}
+        {"id":1, "name":"Категория A", "time":1.5, "description":"описание", "theory":34, "image":"kawasaki_white"},
+        {"id":2, "name":"Категория B", "time":2.5, "description":"описание", "theory":34, "image":"granta_white"},
+        {"id":3, "name":"Категория C", "time":3, "description":"описание", "theory":34, "image":"gaz_white"}
     ],
     "rates":[
         {"id":101, "them":"быстрый старт", "name":"теория онлайн", "price":5000, "practice":0, "description":"описание", "programId": 1, "isHit": false},
@@ -16,12 +16,12 @@
         {"id":108, "them":"рекомендуем", "name":"стандарт", "price":40000, "practice":36, "description":"описание", "programId": 3, "isHit": true},
         {"id":109, "them":"максимум вождения", "name":"практикум плюс", "price":79900, "practice":72, "description":"описание", "programId": 3, "isHit": false}
     ],
-    "transport":[
-        {"id":201, "mark":"Kawasaki", "model":"Ninja600", "kpp":"МКПП / АКПП", "year":2026, "programId": 1},
-        {"id":202, "mark":"Lada", "model":"Granta Sport", "kpp":"МКПП / АКПП", "year":2026, "programId": 2},
-        {"id":203, "mark":"ГАЗон", "model":"Next", "kpp":"МКПП", "year":2026, "programId": 3}
+    "transports":[
+        {"id":201, "mark":"Kawasaki", "model":"Ninja600", "image":"kawasaki", "kpp":"МКПП / АКПП", "year":2026, "programId": 1},
+        {"id":202, "mark":"Lada", "model":"Granta Sport", "image":"granta", "kpp":"МКПП / АКПП", "year":2026, "programId": 2},
+        {"id":203, "mark":"ГАЗон", "model":"Next","image":"gaz", "kpp":"МКПП", "year":2026, "programId": 3}
     ],
-    "coach":[
+    "coachs":[
         {"id":301, "surname":"Осипенко", "name":"Арина", "experience":40, "description":"описание", "programId": 3},
         {"id":302, "surname":"Махновский", "name":"Константин", "experience":20, "description":"описание", "programId": 1},
         {"id":303, "surname":"Татарчук", "name":"Роман", "experience":3, "description":"описание", "programId": 2}

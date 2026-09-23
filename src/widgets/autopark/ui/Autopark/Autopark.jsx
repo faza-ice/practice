@@ -2,12 +2,11 @@ import Plate from '@/shared/ui/plate'
 import Title from '@/shared/ui/title'
 import Text from '@/shared/ui/text'
 import Transports from '@/entities/transport'
-import imag1 from '@/shared/assets/images/kawasaki.png'
-import imag2 from '@/shared/assets/images/granta.png'
-import imag3 from '@/shared/assets/images/gaz.png'
+import { getTransports } from '@/shared/api'
 import styles from './Autopark.module.css'
 
 const Autopark = ()=>{
+    const transports = getTransports()
 
     return(
         <div className={styles.autopark}>
@@ -19,24 +18,18 @@ const Autopark = ()=>{
                 </div>
             </div>
             <div className={styles.transports}>
-                <Transports
-                    images = {imag1}
-                    title = "Kawasaki Ninja600"
-                    year = '2026'
-                    transmission = 'МКПП / АКПП'
-                ></Transports>
-                <Transports
-                    images = {imag2}
-                    title = "Lada Granta Sport"
-                    year = '2026'
-                    transmission = 'МКПП / АКПП'
-                ></Transports>
-                <Transports
-                    images = {imag3}
-                    title = "ГАЗон Next"
-                    year = '2026'
-                    transmission = 'МКПП'
-                ></Transports>
+                {
+                    transports.map((transport)=>{
+                        return(
+                            <Transports
+                                images = {transport.image}
+                                title = {`${transport.mark} ${transport.model}`}
+                                year = {transport.year}
+                                transmission = {transport.kpp}
+                            ></Transports>
+                        )
+                    })
+                }
             </div>
         </div>
     )
