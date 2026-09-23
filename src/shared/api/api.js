@@ -17,3 +17,10 @@ export function getTransports(){
 export function getCoach(){
     return coach
 }
+
+export function getFilterRates(programId){
+    return rates.filter(rate=>rate.programId===programId)
+}
+export function getProgramById(programId){
+    return programs.find(program=>program.id===programId)
+}

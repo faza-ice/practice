@@ -1,22 +1,27 @@
 import Title from '@/shared/ui/Title'
 import Rates from '@/entities/rates'
+import {getFilterRates, getProgramById} from '@/shared/api'
 import styles from './Category.module.css'
 
 const Category = (props)=>{
-    const rate = [
-        {id:1, them:'БЫСТРЫЙ СТАРТ', name:'ТЕОРИЯ ОНЛАЙН', price:'12 900 ₽', isHit:false},
-        {id:2, them:'РЕКОМЕНДУЕМ', name:'СТАНДАРТ', price:'36 500 ₽', isHit:true},
-        {id:3, them:'МАКСИМУМ ВОЖДЕНИЯ', name:'ПРАКТИКУМ ПЛЮС', price:'71 900 ₽', isHit:false},
-    ]
+    const rates = getFilterRates(1);
+    const title = getProgramById(1).name;
 
     return(
         <div className={styles.category}>
-            <Title></Title>
+            <Title>{title}</Title>
             <div className={styles.rates}>
-                {rate.map((rate)=>{
-                    (<Rates option={rate.isHit ? 'red': 'grey'} them={rate.them} name={rate.name} price={rate.price} isHit={rate.isHit}></Rates>)
+                {rates.map((rate)=>{
+                    return (
+                    <Rates 
+                        option={rate.isHit ? 'red': 'grey'} 
+                        them={rate.them} 
+                        name={rate.name} 
+                        price={rate.price.toLocaleString('ru-RU',{style:'currency', currency:'RUB', maximumFractionDigits: 0})} 
+                        isHit={rate.isHit}
+                    ></Rates>
+                    )
                 })}
-                
             </div>
         </div>
     )
