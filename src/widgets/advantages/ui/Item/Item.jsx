@@ -1,5 +1,5 @@
-import Title from '@/shared/ui/Title'
-import Text from '@/shared/ui/Text'
+import Title from '@/shared/ui/title'
+import Text from '@/shared/ui/text'
 import clsx from 'clsx'
 import styles from './Item.module.css'
 

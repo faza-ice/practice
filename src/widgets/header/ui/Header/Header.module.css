@@ -4,6 +4,7 @@
     display:flex;
     align-items: center;
     justify-content: space-around;
+    border-bottom: var(--border);
 }
 .logo{
     display: flex;  

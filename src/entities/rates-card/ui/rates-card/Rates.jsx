@@ -1,6 +1,6 @@
-import Button from '@/shared/ui/Button'
-import Title from '@/shared/ui/Title'
-import Text from '@/shared/ui/Text'
+import Button from '@/shared/ui/button'
+import Title from '@/shared/ui/title'
+import Text from '@/shared/ui/text'
 import styles from './Rates.module.css'
 
 const Rates = (props)=>{

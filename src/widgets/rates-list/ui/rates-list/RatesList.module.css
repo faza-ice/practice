@@ -1,5 +1,4 @@
 .category{
-    height: 525px;
     width: 1280px;
     display: flex;
     flex-direction: column;
@@ -7,6 +6,8 @@
 }
 .rates{
     width: 100%;
-    display:flex;
-    column-gap: 24px;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(auto-fill, 1fr);
+    gap: 24px;
 }

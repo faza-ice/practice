@@ -5,9 +5,16 @@
         {"id":3, "name":"Категория C", "time":3, "description":"описание", "theory":34}
     ],
     "rates":[
-        {"id":101, "them":"быстрый стар", "name":"теория онлайн", "price":5000, "practice":0, "description":"описание", "programId": 1, "isHit": false},
+        {"id":101, "them":"быстрый старт", "name":"теория онлайн", "price":5000, "practice":0, "description":"описание", "programId": 1, "isHit": false},
+        {"id":110, "them":"быстрый старт", "name":"теория онлайн", "price":5000, "practice":0, "description":"описание", "programId": 1, "isHit": false},
         {"id":102, "them":"рекомендуем", "name":"стандарт", "price":12500, "practice":27, "description":"описание", "programId": 1, "isHit": true},
-        {"id":103, "them":"максимум вождения", "name":"практикум плюс", "price":24900, "practice":56, "description":"описание", "programId": 1, "isHit": false}
+        {"id":103, "them":"максимум вождения", "name":"практикум плюс", "price":24900, "practice":56, "description":"описание", "programId": 1, "isHit": false},
+        {"id":104, "them":"быстрый старт", "name":"теория онлайн", "price":12900, "practice":0, "description":"описание", "programId": 2, "isHit": false},
+        {"id":105, "them":"рекомендуем", "name":"стандарт", "price":36500, "practice":36, "description":"описание", "programId": 2, "isHit": true},
+        {"id":106, "them":"максимум вождения", "name":"практикум плюс", "price":71900, "practice":72, "description":"описание", "programId": 2, "isHit": false},
+        {"id":107, "them":"быстрый старт", "name":"теория онлайн", "price":12900, "practice":0, "description":"описание", "programId": 3, "isHit": false},
+        {"id":108, "them":"рекомендуем", "name":"стандарт", "price":40000, "practice":36, "description":"описание", "programId": 3, "isHit": true},
+        {"id":109, "them":"максимум вождения", "name":"практикум плюс", "price":79900, "practice":72, "description":"описание", "programId": 3, "isHit": false}
     ],
     "transport":[
         {"id":201, "mark":"Kawasaki", "model":"Ninja600", "kpp":"МКПП / АКПП", "year":2026, "programId": 1},

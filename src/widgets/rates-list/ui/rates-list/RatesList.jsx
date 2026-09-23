@@ -1,11 +1,12 @@
-import Title from '@/shared/ui/Title'
-import Rates from '@/entities/rates'
+import Title from '@/shared/ui/title'
+import Rates from '@/entities/rates-card'
 import {getFilterRates, getProgramById} from '@/shared/api'
-import styles from './Category.module.css'
+import styles from './RatesList.module.css'
 
-const Category = (props)=>{
-    const rates = getFilterRates(1);
-    const title = getProgramById(1).name;
+const RatesList = (props)=>{
+    const {programId} = props
+    const rates = getFilterRates(programId);
+    const title = getProgramById(programId).name;
 
     return(
         <div className={styles.category}>
@@ -15,8 +16,8 @@ const Category = (props)=>{
                     return (
                     <Rates 
                         option={rate.isHit ? 'red': 'grey'} 
-                        them={rate.them} 
-                        name={rate.name} 
+                        them={rate.them.toUpperCase()} 
+                        name={rate.name.toUpperCase()} 
                         price={rate.price.toLocaleString('ru-RU',{style:'currency', currency:'RUB', maximumFractionDigits: 0})} 
                         isHit={rate.isHit}
                     ></Rates>
@@ -27,4 +28,4 @@ const Category = (props)=>{
     )
 }
 
-export default Category
+export default RatesList

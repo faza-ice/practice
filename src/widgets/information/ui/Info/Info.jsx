@@ -1,8 +1,8 @@
-import Button from '@/shared/ui/Button'
+import Button from '@/shared/ui/button'
 import imag from '@/shared/assets/arrow-right.svg'
-import Plate from '@/shared/ui/Plate'
-import Title from '@/shared/ui/Title'
-import Text from '@/shared/ui/Text'
+import Plate from '@/shared/ui/plate'
+import Title from '@/shared/ui/title'
+import Text from '@/shared/ui/text'
 import styles from './Info.module.css'
 
 const Info = ()=>{

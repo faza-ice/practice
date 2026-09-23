@@ -1,6 +1,6 @@
-import Button from "@/shared/ui/Button"
-import Title from "@/shared/ui/Title"
-import Text from "@/shared/ui/Text"
+import Button from "@/shared/ui/button"
+import Title from "@/shared/ui/title"
+import Text from "@/shared/ui/text"
 import imag from '@/shared/assets/logo.svg'
 import styles from "./Header.module.css"
 

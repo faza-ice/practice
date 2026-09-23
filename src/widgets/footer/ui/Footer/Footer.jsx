@@ -1,5 +1,5 @@
-import Text from '@/shared/ui/Text'
-import Title from '@/shared/ui/Title'
+import Text from '@/shared/ui/text'
+import Title from '@/shared/ui/title'
 import imag from '@/shared/assets/logo.svg'
 import styles from './Footer.module.css'
 

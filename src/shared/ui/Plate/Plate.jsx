@@ -1,5 +1,5 @@
 import clsx from 'clsx'
-import Title from '../Title'
+import Title from '../title'
 import imag from '@/shared/assets/dot.svg'
 import styles from './Plate.module.css'
 

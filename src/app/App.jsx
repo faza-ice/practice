@@ -1,13 +1,14 @@
-import Home from '@/pages/Home'
-import Rates from '@/entities/rates'
-import Category from '@/widgets/category'
+import Home from '@/pages/home'
+import Rates from '@/entities/rates-card'
+import RatesList from '@/widgets/rates-list'
+import RatesPage from '@/pages/rates-page'
 import './styles'
 
 function App() {
 
   return (
     <>
-      <Category></Category>
+      <RatesPage></RatesPage>
     </>
   )
 }
