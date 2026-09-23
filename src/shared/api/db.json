@@ -5,14 +5,14 @@
         {"id":3, "name":"Категория C", "time":3, "description":"описание", "theory":34}
     ],
     "rates":[
-        {"id":101, "them":"быстрый стар", "name":"теория онлайн", "price":5000, "practice":0, "description":"описание"},
-        {"id":102, "them":"рекомендуем", "name":"стандарт", "price":12500, "practice":27, "description":"описание"},
-        {"id":103, "them":"максимум вождения", "name":"практикум плюс", "price":24900, "practice":56, "description":"описание"}
+        {"id":101, "them":"быстрый стар", "name":"теория онлайн", "price":5000, "practice":0, "description":"описание", "programId": 1},
+        {"id":102, "them":"рекомендуем", "name":"стандарт", "price":12500, "practice":27, "description":"описание", "programId": 1},
+        {"id":103, "them":"максимум вождения", "name":"практикум плюс", "price":24900, "practice":56, "description":"описание", "programId": 1}
     ],
     "transport":[
-        {"id":201, "mark":"Kawasaki", "model":"Ninja600", "kpp":"МКПП / АКПП", "year":2026},
-        {"id":202, "mark":"Lada", "model":"Granta Sport", "kpp":"МКПП / АКПП", "year":2026},
-        {"id":203, "mark":"ГАЗон", "model":"Next", "kpp":"МКПП", "year":2026}
+        {"id":201, "mark":"Kawasaki", "model":"Ninja600", "kpp":"МКПП / АКПП", "year":2026, "programId": 1},
+        {"id":202, "mark":"Lada", "model":"Granta Sport", "kpp":"МКПП / АКПП", "year":2026, "programId": 2},
+        {"id":203, "mark":"ГАЗон", "model":"Next", "kpp":"МКПП", "year":2026, "programId": 3}
     ],
     "coach":[
         {"id":301, "surname":"Kawasaki", "name":"Ninja600", "experience":40, "description":"описание"},

@@ -1,0 +1,19 @@
+import data from './db.json'
+
+const {programs, rates, transport, coach} = data
+
+export function getPrograms(){
+    return programs
+}
+
+export function getRates(){
+    return rates
+}
+
+export function getTransports(){
+    return transport
+}
+
+export function getCoach(){
+    return coach
+}

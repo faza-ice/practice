@@ -11,7 +11,7 @@ const Category = (props)=>{
 
     return(
         <div className={styles.category}>
-            <Title>{title}</Title>
+            <Title></Title>
             <div className={styles.rates}>
                 {rate.map((rate)=>{
                     (<Rates option={rate.isHit ? 'red': 'grey'} them={rate.them} name={rate.name} price={rate.price} isHit={rate.isHit}></Rates>)
