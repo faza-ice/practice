@@ -1,0 +1,55 @@
+.program{
+    width: 410px;
+    height: 500px;
+    background-color: var(--color-grey-2);
+    border-radius: 16px;
+    margin: 10px;
+}
+.container{
+    width: 100%;
+    padding: 28px;
+    box-sizing: border-box;    
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category{
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+}
+.logo{
+    border-radius: 18px;
+}
+.title{
+    font-size: 16px;
+}
+.price{
+    font-size: 14px;
+    color: var(--color-red);
+}
+hr{
+    border: var(--border);
+}
+.image{
+    border-radius: 16px 16px 0px 0px;
+}
+.ul{
+
+
+    & > li{
+        list-style-position: inside;
+    }
+    & > li::marker{
+        color: var(--color-red);
+    }
+}
+.button{
+    padding:12px 16px;
+}

@@ -9,6 +9,7 @@
     font-family: var(--font-unbounded-family);
     font-weight: var(--font-unbounded-weight-bold);
     box-sizing: border-box;
+    color: var(--color-white);
 
     &.red{
         background-color: var(--color-red);
