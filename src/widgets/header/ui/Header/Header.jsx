@@ -1,7 +1,7 @@
 import Button from "@/shared/ui/button"
 import Title from "@/shared/ui/title"
 import Text from "@/shared/ui/text"
-import imag from '@/shared/assets/logo.svg'
+import Logo from '@/shared/ui/logo'
 import styles from "./Header.module.css"
 
 const Header = ()=>{
@@ -10,7 +10,7 @@ const Header = ()=>{
     return(
         <div className={styles.header}>
             <div className={styles.logo}>
-                <img src={imag} alt="" />
+                <Logo>A</Logo>
                 <div className={styles.name}><Title className={styles.title}>AANTHEE</Title><Text className={styles.text}><span className={styles.textMedium}>ФЕДЕРАЛЬНАЯ СЕТЬ</span></Text></div>
             </div>
             <nav className={styles.nav}>

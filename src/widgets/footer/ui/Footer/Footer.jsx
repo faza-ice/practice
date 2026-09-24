@@ -1,6 +1,6 @@
 import Text from '@/shared/ui/text'
 import Title from '@/shared/ui/title'
-import imag from '@/shared/assets/logo.svg'
+import Logo from '@/shared/ui/logo'
 import styles from './Footer.module.css'
 
 const Footer = ()=>{
@@ -10,7 +10,7 @@ const Footer = ()=>{
             <div className={styles.container}>
                 <div className={styles.info}>
                     <div className={styles.logo}>
-                        <img src={imag} alt="" />
+                        <Logo>A</Logo>
                         <Title className={styles.title}>AANTHEE</Title>
                     </div>
                     <div>
