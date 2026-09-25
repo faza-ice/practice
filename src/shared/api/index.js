@@ -1,1 +1,1 @@
-export {getFilterRates, getProgramById, getTransports, getPrograms, getCoachs} from './api'
+export {getFilterRates, getProgramById, getTransports, getPrograms, getCoachs, getComments} from './api'

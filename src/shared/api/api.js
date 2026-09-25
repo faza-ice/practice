@@ -1,7 +1,7 @@
 import data from './db.json'
 import {transportImage, programImage, coachImage} from './image'
 
-const {programs, rates, transports, coachs} = data
+const {programs, rates, transports, coachs, comments} = data
 
 export function getPrograms(){
     return programs.map((program)=>({
@@ -31,6 +31,11 @@ export function getCoachs(){
 export function getFilterRates(programId){
     return rates.filter(rate=>rate.programId===programId)
 }
+
 export function getProgramById(programId){
     return programs.find(program=>program.id===programId)
+}
+
+export function getComments(){
+    return comments
 }
