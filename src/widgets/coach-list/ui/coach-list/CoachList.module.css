@@ -1,7 +1,7 @@
-.programList{
+.coachList{
     width: 1280px;
-    display: grid;   
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(auto-fill, 1fr);
-    gap: 24px;
+    gap:24px;
 }

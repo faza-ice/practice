@@ -11,7 +11,7 @@ const RatesPage = ()=>{
             <Header></Header>
             
             <div className={styles.container}>
-                <div className={styles.plateCont}>
+                <div className={styles.head}>
                     <Plate>ЦЕНЫ И ТАРИФЫ</Plate>
                     <RatesList programId={1}></RatesList>
                 </div>

@@ -1,5 +1,5 @@
 import data from './db.json'
-import {transportImage, programImage} from './image'
+import {transportImage, programImage, coachImage} from './image'
 
 const {programs, rates, transports, coachs} = data
 
@@ -21,8 +21,11 @@ export function getTransports(){
     })) 
 }
 
-export function getCoach(){
-    return coachs
+export function getCoachs(){
+    return coachs.map((coach)=>({
+        ...coach,
+        image: coachImage[coach.image] ?? null,
+    }))
 }
 
 export function getFilterRates(programId){
