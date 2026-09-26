@@ -8,13 +8,15 @@ import ProgramPage from '@/pages/program-page'
 import Coach from '@/entities/coach'
 import CoachList from '@/widgets/coach-list'
 import CoachPage from '@/pages/coach-page'
+import Comment from '@/entities/comment'
+import CommentPage from '@/pages/comment-page'
 import './styles'
 
 function App() {
 
   return (
     <>
-      <CoachPage></CoachPage>
+      <CommentPage></CommentPage>
     </>
   )
 }
