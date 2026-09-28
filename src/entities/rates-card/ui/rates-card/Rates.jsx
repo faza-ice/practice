@@ -4,9 +4,8 @@ import Text from '@/shared/ui/text'
 import styles from './Rates.module.css'
 
 const Rates = (props)=>{
-    const {option, them, name, price, isHit = false} = props
-    const str = "Полный курс видеолекций. Интерактивное приложение 24/7. Поддержка личного куратора. Без практических занятий. Помощь в оформлении документов. Еще одно бесполезное предложение на месте. Ну и еще одно бесполезное предложение на месте так чисто проверить."
-    const description = str.split(". ");
+    const {option, them, name, price, isHit = false, description} = props
+    const str = description.split(". ");
 
     return(
         <div className={`${styles.rates} ${styles[option]}`}>
@@ -20,12 +19,11 @@ const Rates = (props)=>{
             </div>
             <div>
                 <ul className={styles.ul}>
-                    {description.map((el)=>{
+                    {str.map((el)=>{
                         return <li><Text className={styles.text}>{el}</Text></li>
                     })}
                 </ul>
             </div>
-            <Button option={option} className={styles.button}>ВЫБРАТЬ ТАРИФ</Button>
         </div>
     )
 }

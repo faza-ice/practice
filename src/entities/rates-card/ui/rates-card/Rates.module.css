@@ -72,8 +72,9 @@
     & > li::before{
         position: absolute;
         content: '';
-        mask: url('@/shared/assets/Vector.svg'), no-repeat, center / contain;
+        mask: url('@/shared/assets/Vector.svg') no-repeat center / contain;
         width: 16px;
+        background-color: var(--color-red);
         height: 16px;
         left: 0;
     }

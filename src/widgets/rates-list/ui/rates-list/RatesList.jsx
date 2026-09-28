@@ -20,6 +20,7 @@ const RatesList = (props)=>{
                         name={rate.name.toUpperCase()} 
                         price={rate.price.toLocaleString('ru-RU',{style:'currency', currency:'RUB', maximumFractionDigits: 0})} 
                         isHit={rate.isHit}
+                        description={rate.description}
                     ></Rates>
                     )
                 })}

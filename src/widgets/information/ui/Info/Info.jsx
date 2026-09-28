@@ -15,9 +15,6 @@ const Info = ()=>{
                 <Title className={styles.title}>ТВОЙ УВЕРЕННЫЙ СТАРТ ЗА РУЛЕМ</Title>
                 <Text className={styles.text}>Обучение на права категорий A, B, C по современным стандартам. Собственный технологичный автодром, новые автомобили и опытные инструкторы. Сдай экзамен в ГИБДД с первого раза!</Text>
             </div>
-            <div className={styles.buttons}>
-                <Button option="red" className={styles.button}>Выбрать категорию <img src={imag} alt="" /></Button><Button option="grey" className={styles.button}>Консультация эксперта</Button>
-            </div>
             <div className={styles.plusCont}>
                 <div className={styles.plus}>
                     <Title className={styles.plusTitle}>100%</Title>

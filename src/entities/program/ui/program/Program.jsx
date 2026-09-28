@@ -29,7 +29,6 @@ const Program = (props)=>{
                         <li><Text>практика: {practice}</Text></li>
                     </ul>
                 </div>
-                <Button option='grey' className={styles.button}>ВЫБРАТЬ ПРОГРАММУ</Button>
             </div>
         </div>
     )

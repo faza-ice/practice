@@ -32,7 +32,7 @@ const Footer = ()=>{
                 </div>
             </div>
             <div className={styles.foot}>
-                <Text className={styles.footText}>© 2026 Autoschool. Все права защищены. Лицензия на образовательную деятельность № Л035-01298-77/00184323</Text>
+                <Text className={styles.footText}>© 2026 Autoschool. Все права защищены. Я здесь. Лицензия на образовательную деятельность № Л035-01298-77/00184323</Text>
                 <div className={styles.footCont}>
                     <Text className={styles.footText}>Политика конфиденциальности</Text>
                     <Text className={styles.footText}>Пользовательское соглашение</Text>

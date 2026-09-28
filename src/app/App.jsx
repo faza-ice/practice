@@ -10,13 +10,14 @@ import CoachList from '@/widgets/coach-list'
 import CoachPage from '@/pages/coach-page'
 import Comment from '@/entities/comment'
 import CommentPage from '@/pages/comment-page'
+import Contact from '@/widgets/contact'
 import './styles'
 
 function App() {
 
   return (
     <>
-      <CommentPage></CommentPage>
+      <Contact></Contact>
     </>
   )
 }
