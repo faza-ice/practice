@@ -11,13 +11,15 @@ import CoachPage from '@/pages/coach-page'
 import Comment from '@/entities/comment'
 import CommentPage from '@/pages/comment-page'
 import Contact from '@/widgets/contact'
+import Select from '@/shared/ui/select'
 import './styles'
 
 function App() {
+  const opt = [{value:"val", label:'lab'},{value:"val2", label:'lab2'}]
 
   return (
     <>
-      <Contact></Contact>
+      <Select options={opt}></Select>
     </>
   )
 }

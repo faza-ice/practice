@@ -1,0 +1,9 @@
+.select{
+    width: 440px;
+    padding: 14px 16px;
+    box-sizing: border-box;
+    background-color: var(--color-black);
+    border-radius: 8px;
+    border: var(--border);
+    color: var(--color-white);
+}
