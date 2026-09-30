@@ -1,0 +1,14 @@
+.addEntry{
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    row-gap: 24px;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+.button{
+    column-gap: 12px;
+}

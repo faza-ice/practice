@@ -12,14 +12,14 @@ import Comment from '@/entities/comment'
 import CommentPage from '@/pages/comment-page'
 import Contact from '@/widgets/contact'
 import Select from '@/shared/ui/select'
+import AddEntry from '@/features/add-entry'
 import './styles'
 
 function App() {
-  const opt = [{value:"val", label:'lab'},{value:"val2", label:'lab2'}]
 
   return (
     <>
-      <Select options={opt}></Select>
+      <AddEntry></AddEntry>
     </>
   )
 }
