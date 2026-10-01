@@ -1,11 +1,11 @@
 import Header from '@/widgets/header'
 import Plate from '@/shared/ui/plate'
 import Title from '@/shared/ui/title'
-import CoachList from '@/widgets/coach-list'
+import {CoachList} from '@/widgets/coach-list'
 import Footer from '@/widgets/footer'
 import styles from './CoachPage.module.css'
 
-const CoachPage = ()=>{
+export const CoachPage = ()=>{
 
     return(
         <>
@@ -21,5 +21,3 @@ const CoachPage = ()=>{
         </>
     )
 }
-
-export default CoachPage

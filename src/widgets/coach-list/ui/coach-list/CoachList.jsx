@@ -1,8 +1,7 @@
-import Coach from '@/entities/coach'
-import {getCoachs} from '@/shared/api'
+import {Coach, getCoachs} from '@/entities/coach'
 import styles from './CoachList.module.css'
 
-const CoachList = ()=>{
+export const CoachList = ()=>{
     const coachs = getCoachs()
 
     return(
@@ -22,5 +21,3 @@ const CoachList = ()=>{
         </div>
     )
 }
-
-export default CoachList

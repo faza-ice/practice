@@ -2,7 +2,7 @@ import Title from '@/shared/ui/title'
 import Text from '@/shared/ui/text'
 import styles from './Coach.module.css'
 
-const Coach = (props)=>{
+export const Coach = (props)=>{
     const {image, name, exp, description} = props
 
     return(
@@ -18,5 +18,3 @@ const Coach = (props)=>{
         </div>
     )
 }
-
-export default Coach

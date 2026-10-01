@@ -3,5 +3,10 @@
     height: 40px;
     background-color: var(--color-black);
     border-radius: 8px;
-    border:var(--border)
+    border:var(--border);
+    box-sizing: border-box;
+    padding: 14px 16px;
+    font-family: var(--font-manrope-family);
+    font-size: 13px;
+    font-weight: var(--font-manrope-weight-regular);
 }

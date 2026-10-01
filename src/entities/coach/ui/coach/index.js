@@ -1,1 +1,1 @@
-export {default} from './Coach'
+export { Coach } from './Coach'

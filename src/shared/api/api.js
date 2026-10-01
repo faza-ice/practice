@@ -1,4 +1,4 @@
-import data from './db.json'
+import data from '../config/db.json'
 import {transportImage, programImage, coachImage} from './image'
 
 const {programs, rates, transports, coachs, comments} = data

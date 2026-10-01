@@ -1,1 +1,1 @@
-export {default} from './CoachList'
+export {CoachList} from './CoachList'

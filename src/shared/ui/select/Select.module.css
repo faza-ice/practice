@@ -6,4 +6,11 @@
     border-radius: 8px;
     border: var(--border);
     color: var(--color-white);
+    font-family: var(--font-manrope-family);
+    font-size: 13px;
+    font-weight: var(--font-manrope-weight-regular);
+
+    &:focus{
+        border-radius: 8px 8px 0px 0px;
+    }
 }

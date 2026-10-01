@@ -1,1 +1,1 @@
-export {default} from './ui/CoachPage'
+export {CoachPage} from './ui/CoachPage'

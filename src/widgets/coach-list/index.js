@@ -1,1 +1,1 @@
-export {default} from './ui/coach-list'
+export {CoachList} from './ui/coach-list'
