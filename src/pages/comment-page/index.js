@@ -1,1 +1,1 @@
-export {default} from './ui/CommentPage'
+export {CommentPage} from './ui/CommentPage'

@@ -1,0 +1,1 @@
+export const MIN_PRACTICE_HOURSE = 0;

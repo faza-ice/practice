@@ -4,7 +4,7 @@ import Title from '@/shared/ui/title'
 import Text from '@/shared/ui/text'
 import styles from './Program.module.css'
 
-const Program = (props)=>{
+export const Program = (props)=>{
     const {image, description, price, time, theory, practice, symbol, name} = props
 
     return(
@@ -16,7 +16,7 @@ const Program = (props)=>{
                         <Logo className={styles.logo}>{symbol}</Logo>
                         <Title className={styles.title}>{name}</Title>
                     </div>
-                    <Title className={styles.price}>от {price}</Title>
+                    <Title className={styles.price}>от {price ?? 'нужно уточнять'}</Title>
                 </div>
                 <div className={styles.description}>
                     <Text>{description}</Text>
@@ -26,12 +26,10 @@ const Program = (props)=>{
                     <ul className={styles.ul}>
                         <li><Text>срок: {time}</Text></li>
                         <li><Text>теория: {theory}</Text></li>
-                        <li><Text>практика: {practice}</Text></li>
+                        <li><Text>практика: { practice ?? 'нужно уточнять'}</Text></li>
                     </ul>
                 </div>
             </div>
         </div>
     )
 }
-
-export default Program

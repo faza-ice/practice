@@ -1,26 +1,14 @@
 import Header from '@/widgets/header'
-import Plate from '@/shared/ui/plate'
-import RatesList from '@/widgets/rates-list'
+import {RatesBlock} from '@/widgets/rates-block'
 import Footer from '@/widgets/footer'
-import styles from './RatesPage.module.css'
 
-const RatesPage = ()=>{
+export const RatesPage = ()=>{
 
     return(
         <>
             <Header></Header>
-            
-            <div className={styles.container}>
-                <div className={styles.head}>
-                    <Plate>ЦЕНЫ И ТАРИФЫ</Plate>
-                    <RatesList programId={1}></RatesList>
-                </div>
-                <RatesList programId={2}></RatesList>
-                <RatesList programId={3}></RatesList>
-            </div>
+            <RatesBlock></RatesBlock>
             <Footer></Footer>
         </>
     )
 }
-
-export default RatesPage

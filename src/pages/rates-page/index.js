@@ -1,1 +1,1 @@
-export {default} from './ui/RatesPage'
+export {RatesPage} from './ui/RatesPage'

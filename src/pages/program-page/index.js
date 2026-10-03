@@ -1,1 +1,1 @@
-export {default} from './ui/ProgramPage'
+export {ProgramPage} from './ui/ProgramPage'

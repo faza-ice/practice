@@ -1,0 +1,13 @@
+.container{
+    width: 100%;
+    padding: 35px 80px 100px 80px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 65px;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}

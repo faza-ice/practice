@@ -1,1 +1,2 @@
-export {default} from './ui/program'
+export {Program} from './ui/program'
+export {getProgramById, getPrograms} from './api/programApi'

@@ -2,7 +2,7 @@ import Text from '@/shared/ui/text'
 import Title from '@/shared/ui/title'
 import styles from './Comment.module.css'
 
-const Comment = (props)=>{
+export const Comment = (props)=>{
     const {grade, description, surname, name, symbol, date} = props
 
     return(
@@ -32,5 +32,3 @@ const Comment = (props)=>{
         </div>
     )
 }
-
-export default Comment

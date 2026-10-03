@@ -1,1 +1,1 @@
-export {default} from './Program'
+export {Program} from './Program'

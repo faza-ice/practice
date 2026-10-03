@@ -3,7 +3,7 @@ import Title from '@/shared/ui/title'
 import Text from '@/shared/ui/text'
 import styles from './Rates.module.css'
 
-const Rates = (props)=>{
+export const Rates = (props)=>{
     const {option, them, name, price, isHit = false, description} = props
     const str = description.split(". ");
 
@@ -27,5 +27,3 @@ const Rates = (props)=>{
         </div>
     )
 }
-
-export default Rates
