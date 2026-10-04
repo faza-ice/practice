@@ -2,21 +2,22 @@
     background-color: var(--color-grey-2);
     border-radius: 16px;
     border: var(--border);
-    width: 630px;
-    height: 280px;
+    width: 100%;
+    max-width: 39.375rem;
+    max-height: 280px;
     display: flex;
     flex-direction: column;
-    padding:32px;
-    row-gap: 16px;
+    padding:2rem;
+    row-gap: 1rem;
     box-sizing: border-box;
 }
 .title{
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 .text{
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 .imag{
-    width: 32px;
+    width: min(100%, 2rem);
     height: 32px;
 }

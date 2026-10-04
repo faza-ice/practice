@@ -1,12 +1,11 @@
 import Plate from '@/shared/ui/plate'
 import Title from '@/shared/ui/title'
 import Text from '@/shared/ui/text'
-import Transports from '@/entities/transport'
-import { getTransports } from '@/shared/api'
+import {Transports} from '@/entities/transport'
+import { transportData } from '../../model/autoparkData'
 import styles from './Autopark.module.css'
 
-const Autopark = ()=>{
-    const transports = getTransports()
+export const Autopark = ()=>{
 
     return(
         <div className={styles.autopark}>
@@ -19,7 +18,7 @@ const Autopark = ()=>{
             </div>
             <div className={styles.transports}>
                 {
-                    transports.map((transport)=>{
+                    transportData.map((transport)=>{
                         return(
                             <Transports
                                 images = {transport.image}
@@ -34,5 +33,3 @@ const Autopark = ()=>{
         </div>
     )
 }
-
-export default Autopark

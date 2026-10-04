@@ -2,7 +2,7 @@ import Title from '@/shared/ui/title'
 import Text from '@/shared/ui/text'
 import styles from './Transports.module.css'
 
-const Transports = (props)=>{
+export const Transports = (props)=>{
     const {
         images,
         title,
@@ -25,5 +25,3 @@ const Transports = (props)=>{
         </div>
     )
 }
-
-export default Transports

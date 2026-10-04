@@ -1,1 +1,1 @@
-export {default} from './Autopark'
+export {Autopark} from './Autopark'

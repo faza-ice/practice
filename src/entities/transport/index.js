@@ -1,1 +1,2 @@
-export {default} from './ui/transports'
+export {Transports} from './ui/transports'
+export {getTransports} from './api/transportApi'

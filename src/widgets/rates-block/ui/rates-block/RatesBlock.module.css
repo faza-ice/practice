@@ -3,8 +3,13 @@
     padding: 35px 80px 100px 80px;
     display: flex;
     flex-direction: column;
-    row-gap: 65px;
+    row-gap: 135px;
     box-sizing: border-box;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 65px;
 }
 .head{
     display: flex;

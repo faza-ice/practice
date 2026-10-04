@@ -1,13 +1,13 @@
 .select{
     width: 440px;
-    padding: 14px 16px;
+    padding: 0.875rem 1rem;
     box-sizing: border-box;
     background-color: var(--color-black);
     border-radius: 8px;
     border: var(--border);
     color: var(--color-white);
     font-family: var(--font-manrope-family);
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: var(--font-manrope-weight-regular);
 
     &:focus{

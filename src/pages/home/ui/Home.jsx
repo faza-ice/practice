@@ -1,10 +1,10 @@
 import Header from '@/widgets/header'
 import Info from '@/widgets/information'
 import Advantages from '@/widgets/advantages'
-import Autopark from '@/widgets/autopark'
+import {Autopark} from '@/widgets/autopark'
 import Footer from '@/widgets/footer'
 
-const Home = ()=>{
+export const Home = ()=>{
 
     return(
         <>
@@ -16,4 +16,3 @@ const Home = ()=>{
         </>
     )
 }
-export default Home

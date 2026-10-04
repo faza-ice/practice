@@ -1,4 +1,4 @@
-import Home from '@/pages/home'
+import {Home} from '@/pages/home'
 import {Rates} from '@/entities/rates-card'
 import {Program} from '@/entities/program'
 import {RatesList} from '@/features/rates-list'
@@ -19,7 +19,7 @@ function App() {
 
   return (
     <>
-      <RatesPage></RatesPage>
+      <Home></Home>
     </>
   )
 }

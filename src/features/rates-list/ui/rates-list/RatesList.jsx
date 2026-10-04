@@ -6,11 +6,9 @@ import styles from './RatesList.module.css'
 export const RatesList = (props)=>{
     const {programId} = props
     const rates = getRatesData(programId)
-    const symbol = 'A'
 
     return(
         <div className={styles.category}>
-            <Title>Категория {symbol}</Title>
             <div className={styles.rates}>
                 {rates.map((rate)=>{
                     return (

@@ -1,1 +1,1 @@
-export {default} from './ui/autopark'
+export {Autopark} from './ui/autopark'

@@ -5,8 +5,8 @@
     border-radius: 8px;
     border:var(--border);
     box-sizing: border-box;
-    padding: 14px 16px;
+    padding: 0.875rem 1rem;
     font-family: var(--font-manrope-family);
-    font-size: 13px;
+    font-size: 0.8125rem;
     font-weight: var(--font-manrope-weight-regular);
 }
