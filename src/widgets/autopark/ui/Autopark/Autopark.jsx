@@ -12,7 +12,7 @@ export const Autopark = ()=>{
             <div className={styles.head}>
                 <Plate>НАШ АВТОПАРК</Plate>
                 <div className={styles.headCont}>
-                    <Title>НОВЫЙ И ТЕХНИЧЕСКИ ИСПРАВНЫЙ ТРАНСПОРТ</Title>
+                    <Title className={styles.title}>НОВЫЙ И ТЕХНИЧЕСКИ ИСПРАВНЫЙ ТРАНСПОРТ</Title>
                     <Text>Все машины застрахованы, регулярно проходят ТО и оснащены дублирующими педалями для вашей безопасности.</Text>
                 </div>
             </div>

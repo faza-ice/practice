@@ -23,6 +23,11 @@ const Header = ()=>{
                 <Title className={styles.title}><span className={styles.titleBold}>+7 (800) 555-35-35</span></Title>
                 <Button option='red' className={styles.button}>ЗАПИСЬ ОНЛАЙН</Button>
             </div>
+                <svg  width="56px" height="56px" viewBox="0 0 24 24" className={styles.svg}>
+                    <path d="M4 18L20 18" stroke="rgba(229, 25, 34, 1)" />
+                    <path d="M4 12L20 12" stroke="rgba(229, 25, 34, 1)" />
+                    <path d="M4 6L20 6" stroke="rgba(229, 25, 34, 1)" />
+                </svg>
         </div>
     )
 }

@@ -1,7 +1,7 @@
 .coach{
-    width: 410px;
+    width: min(100%, 25.625rem);
     background-color: var(--color-grey-2);
-    border-radius: 16px;
+    border-radius: 1rem;
 }
 .container{
     width: 100%;
@@ -9,7 +9,7 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-    row-gap: 16px;
+    row-gap: 1rem;
 }
 .head{
     width: 100%;
@@ -18,7 +18,7 @@
     row-gap: 4px;
 }
 .name{
-    font-size: 16px;
+    font-size: 1rem;
 }
 .exp{
     font-weight: var(--font-manrope-weight-bold);
@@ -29,5 +29,8 @@
     font-size: 13px;
 }
 .image{
-    border-radius: 16px;
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 1rem;
 }

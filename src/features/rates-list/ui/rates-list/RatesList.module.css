@@ -1,5 +1,5 @@
 .category{
-    width: 1280px;
+    width: min(100%, 80rem);
     display: flex;
     flex-direction: column;
     row-gap: 65px;
@@ -10,4 +10,14 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(auto-fill, 1fr);
     gap: 24px;
+}
+@media(max-width:1024px){
+    .rates{
+        grid-template-columns: 1fr 1fr;
+    }   
+}
+@media(max-width:800px){
+    .rates{
+        grid-template-columns: 1fr ;
+    }  
 }

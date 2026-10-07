@@ -1,7 +1,17 @@
 .programList{
-    width: 1280px;
+    width: min(100%, 80rem);
     display: grid;   
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(auto-fill, 1fr);
-    gap: 24px;
+    gap: 1.5rem;
+}
+@media(max-width:1024px){
+    .programList{
+        grid-template-columns: 1fr 1fr;
+    }   
+}
+@media(max-width:800px){
+    .programList{
+        grid-template-columns: 1fr ;
+    }  
 }

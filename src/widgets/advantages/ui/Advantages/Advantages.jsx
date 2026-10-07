@@ -16,7 +16,7 @@ const Advantages = ()=>{
             <div className={styles.head}>
                 <Plate>ПРЕИМУЩЕСТВА</Plate>
                 <div className={styles.headCont}>
-                    <Title>ПОЧЕМУ КУРСАНТЫ ВЫБИРАЮТ НАС?</Title>
+                    <Title className={styles.title}>ПОЧЕМУ КУРСАНТЫ ВЫБИРАЮТ НАС?</Title>
                     <Text>Мы создали идеальную экосистему обучения, где каждый этап продуман до мелочей для вашего комфорта и гарантированного результата.</Text>
                 </div>
             </div>

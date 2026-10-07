@@ -7,6 +7,11 @@
     row-gap: 3.5rem;
     box-sizing: border-box;
 }
+@media(max-width:970px){
+    .autopark{
+        padding: 6.25rem 3rem 3rem 3rem;
+    }   
+}
 .head{
     width:min(100%, 80rem);
     min-height: 130px;
@@ -19,6 +24,7 @@
     min-height: 80px;
     display: grid;
     grid-template-columns: 2fr 1fr;
+    column-gap: 0.75rem;
 }
 .transports{
     display: flex;
@@ -31,4 +37,14 @@
     .transports{
         flex-wrap: wrap;
     }
+}
+@media(max-width:780px){
+    .title{
+        font-size: 2rem;
+    }   
+}
+@media(max-width:468px){
+    .title{
+        font-size: 1.5rem;
+    }   
 }

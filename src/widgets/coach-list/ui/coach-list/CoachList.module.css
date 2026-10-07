@@ -1,21 +1,41 @@
 .coachList{
-    width: 1280px;
+    width: min(100%, 80rem);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: repeat(auto-fill, 1fr);
-    gap:24px;
+    gap:1.5rem;
 }
 .container{
     width: 100%;
-    padding: 35px 80px 100px 80px;
+    padding: 35px 5rem 100px 5rem;
     display: flex;
     flex-direction: column;
     row-gap: 65px;
     box-sizing: border-box;
 }
+@media(max-width:1024px){
+    .coachList{
+        grid-template-columns: 1fr 1fr;
+    }   
+}
+@media(max-width:800px){
+    .coachList{
+        grid-template-columns: 1fr ;
+    }  
+}
+@media(max-width:780px){
+    .title{
+        font-size: 2rem;
+    }   
+}
+@media(max-width:468px){
+    .title{
+        font-size: 1.5rem;
+    }   
+}
 .head{
     width: 100%;
     display: flex;
     flex-direction: column;
-    row-gap: 16px;
+    row-gap: 1rem;
 }

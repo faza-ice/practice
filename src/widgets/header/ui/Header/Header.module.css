@@ -1,10 +1,16 @@
 .header{
     width:100%;
-    height: 100px;
+    min-height: 6.25rem;
     display:flex;
     align-items: center;
     justify-content: space-around;
     border-bottom: var(--border);
+    box-sizing: border-box;
+}
+@media(max-width:970px){
+    .header{
+        min-height: 5.25rem;
+    }
 }
 .logo{
     display: flex;  
@@ -29,10 +35,16 @@
     font-size: 1rem;
 }
 .titleBold{
+    text-wrap: nowrap;
     font-weight: var(--font-unbounded-weight-bold);
 }
 .text{
     font-size:  0.625rem;
+}
+@media(max-width:970px){
+    .text{
+        font-size: clamp(0.3rem, 0.5rem, 0.625rem);
+    }
 }
 .textMedium{
     font-weight: var(--font-manrope-weight-medium);
@@ -47,18 +59,35 @@
     font-size: 0.6875rem
 }
 @media(max-width:970px){
-    .text, .textMedium, .textSemiBold{
-        font-size: 0.5rem;
+    .text, .textMedium{
+        font-size: clamp(0.4rem, 0.9vw, 1rem);
+    }
+    .textSemiBold{
+        font-size: clamp(0.6rem, 1.5vw, 1rem);
     }
     .title, .titleBold{
-        font-size: 0.875rem;
+        font-size: clamp(0.65rem, 0.875rem, 1rem);
     }
 }
-@media(max-width:970px){
-    .text, .textMedium, .textSemiBold{
-        font-size: 0.5rem;
-    }
+@media(max-width:860px){
     .title, .titleBold{
-        font-size: 0.875rem;
+        font-size: clamp(0.7rem, 1.3vw, 1rem);
+    }
+}
+
+.svg{
+    display: none;
+}
+
+@media(max-width:800px){
+    .tech, .nav{
+        display: none;
+    }
+    .svg{
+        display: block;
+    }
+    .header{
+        justify-content: space-between;
+        padding: 0px 2rem 0px 2rem;
     }
 }
