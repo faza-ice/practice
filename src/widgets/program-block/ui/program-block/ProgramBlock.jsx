@@ -9,7 +9,7 @@ export const ProgramBlock = ()=>{
         <div className={styles.container}>
             <div className={styles.head}>
                 <Plate>КАТЕГОРИИ ОБУЧЕНИЯ</Plate>
-                <Title>ПРОГРАММЫ ПОД ЛЮБЫЕ ЦЕЛИ</Title>
+                <Title className={styles.title}>ПРОГРАММЫ ПОД ЛЮБЫЕ ЦЕЛИ</Title>
             </div>
             <ProgramList></ProgramList>
         </div>

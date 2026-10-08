@@ -1,7 +1,7 @@
 .addEntry{
     display: flex;
     flex-direction: column;
-    width: 440px;
+    width: min(100%, 27.5rem);
     row-gap: 24px;
 }
 .head{

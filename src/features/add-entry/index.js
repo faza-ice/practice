@@ -1,1 +1,1 @@
-export {default} from './ui/AddEntry'
+export {AddEntry} from './ui/AddEntry'

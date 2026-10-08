@@ -17,3 +17,13 @@
     flex-direction: column;
     row-gap: 1rem;
 }
+@media(max-width:780px){
+    .title{
+        font-size: 2rem;
+    }   
+}
+@media(max-width:468px){
+    .title{
+        font-size: 1.5rem;
+    }   
+}

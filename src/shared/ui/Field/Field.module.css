@@ -1,5 +1,5 @@
 .field{
-    width: 440px;
+    width: min(100%,440px);
     height: 40px;
     background-color: var(--color-black);
     border-radius: 8px;
@@ -9,4 +9,5 @@
     font-family: var(--font-manrope-family);
     font-size: 0.8125rem;
     font-weight: var(--font-manrope-weight-regular);
+    color: var(--color-white);
 }

@@ -1,5 +1,5 @@
 .select{
-    width: 440px;
+    width: min(100%,440px);
     padding: 0.875rem 1rem;
     box-sizing: border-box;
     background-color: var(--color-black);

@@ -4,9 +4,10 @@ import Plate from '@/shared/ui/plate'
 import tel from '@/shared/assets/contactSvg/icon-tel.svg'
 import mail from '@/shared/assets/contactSvg/icon-mail.svg'
 import map from '@/shared/assets/contactSvg/icon-map.svg'
+import {AddEntry} from '@/features/add-entry'
 import styles from './Contact.module.css'
 
-const Contact = ()=>{
+export const Contact = ()=>{
 
     return(
         <div className={styles.contact}>
@@ -38,8 +39,7 @@ const Contact = ()=>{
                     </div>
                 </div>
             </div>
+            <AddEntry></AddEntry>
         </div>
     )
 }
-
-export default Contact

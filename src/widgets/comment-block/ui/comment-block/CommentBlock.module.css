@@ -1,13 +1,28 @@
 .container{
     width: 100%;
-    padding: 35px 80px 100px 80px;
+    padding: 2.1875rem 5rem 6.25rem 5rem;
     display: flex;
     flex-direction: column;
     row-gap: 65px;
     box-sizing: border-box;
 }
+@media(max-width:970px){
+    .container{
+        padding: 1.5rem 2.5rem 3.5rem 2.5rem;
+    }   
+}
 .head{
     display: flex;
     flex-direction: column;
-    row-gap: 16px;
+    row-gap: 1rem;
+}
+@media(max-width:780px){
+    .title{
+        font-size: 2rem;
+    }   
+}
+@media(max-width:468px){
+    .title{
+        font-size: 1.5rem;
+    }   
 }

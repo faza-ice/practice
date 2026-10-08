@@ -9,7 +9,7 @@ export const CommentBlock = ()=>{
         <div className={styles.container}>
             <div className={styles.head}>
                 <Plate>ОТЗЫВЫ КУРСАНТОВ</Plate>
-                <Title>ОТЗЫВЫ ТЕХ, КТО УЖЕ ПОЛУЧИЛ ПРАВА</Title>
+                <Title className={styles.title}>ОТЗЫВЫ ТЕХ, КТО УЖЕ ПОЛУЧИЛ ПРАВА</Title>
             </div>
             <CommentList></CommentList>
         </div>

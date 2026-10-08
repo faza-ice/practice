@@ -1,9 +1,16 @@
 .contact{
-    width: 680px;
+    width: min(100%, 42.5rem);
+    padding: 2.1875rem 5rem 6.25rem 5rem;
     background-color: var(--color-black);
     display: flex;
     flex-direction: column;
     row-gap: 40px;
+    box-sizing: border-box;
+}
+@media(max-width:970px){
+    .contact{
+        padding: 1.5rem 2.5rem 3.5rem 2.5rem;
+    }   
 }
 .head{
     width: 100%;
